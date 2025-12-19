@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASYNC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-slate-950 text-slate-100 min-h-screen flex items-center justify-center">
+
+    <!-- Main Container -->
+    <div class="w-full max-w-5xl px-6">
+
+        <!-- Header -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold tracking-tight text-white">GitHub User Explorer</h1>
+            <p class="mt-3 text-slate-400 max-w-xl mx-auto">
+                Search and visualize GitHub user profiles in a clean, modern, and professional interface.
+            </p>
+        </header>
+
+        <!-- Search Card -->
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-lg mb-10">
+            <div class="flex flex-col md:flex-row gap-4">
+                <input type="text" placeholder="Enter GitHub username"
+                    class=" usernameinp flex-1 bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-600" />
+                <button
+                    class=" search bg-indigo-600 hover:bg-indigo-500 transition rounded-xl px-6 py-3 font-semibold text-white">
+                    Search
+                </button>
+            </div>
+        </div>
+
+        <!-- Profile Card -->
+        <section class=" card bg-slate-900 border border-slate-800 rounded-2xl p-8 shadow-lg">
+            <div class="flex flex-col md:flex-row gap-8 items-start">
+
+               
+        <!-- Footer -->
+        <footer class="text-center text-slate-500 text-sm mt-10">
+            Designed for professional GitHub API projects · Tailwind CSS UI only
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
